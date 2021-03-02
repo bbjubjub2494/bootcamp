@@ -24,7 +24,7 @@ class ExampleInstrumentedTest {
 
     @Test
     fun greeting() {
-        Espresso.onView(ViewMatchers.withId(R.id.myTextView)
+        Espresso.onView(ViewMatchers.withId(R.id.myTextView))
     }
     @Test
     fun useAppContext() {
